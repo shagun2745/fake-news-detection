@@ -1,38 +1,22 @@
-\# Fake News Detection using Machine Learning
+# Fake News Detection (Machine Learning)
 
+This project uses Machine Learning and NLP techniques to classify news as real or fake.
 
+## Features
+- TF-IDF Vectorization
+- Logistic Regression Model
+- Streamlit Web App
 
-\## Overview
+## How to Run
 
-This project detects fake news using NLP and machine learning.
+1. Install dependencies:
+pip install -r requirements.txt
 
+2. Run the app:
+streamlit run app.py
 
-
-\## Features
-
-\- TF-IDF Vectorization
-
-\- Logistic Regression Model
-
-\- Accuracy Evaluation
-
-
-
-\## Dataset
-
-Fake and True News Dataset (Kaggle)
-
-
-
-\## How to Run
-
-1\. Install requirements
-
-2\. Run the notebook
-
-
-
-\## Results
-
-Achieved good accuracy in classification
-
+## Tech Stack
+- Python
+- Scikit-learn
+- Pandas
+- Streamlit
